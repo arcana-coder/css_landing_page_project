@@ -1,0 +1,29 @@
+/* header */
+.logo-info{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 30px;
+}
+.head-info{
+ width: 400px;
+}
+.placeholder{
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+}
+button{
+    background-color:rgb(95, 159, 255);
+    color: white;
+    border-radius: 5px;
+}
