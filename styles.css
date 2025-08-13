@@ -1,4 +1,7 @@
 /* header */
+header{
+    background-color: blue;
+}
 .logo-info{
     display: flex;
     justify-content: space-around;
@@ -12,18 +15,44 @@ ul{
     display: flex;
     justify-content: center;
     gap: 70px;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .head-info{
  width: 400px;
 }
 .placeholder{
-    background-color: gray;
+    background-color: rgb(207, 207, 207);
     height: 200px;
     width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button{
     background-color:rgb(95, 159, 255);
     color: white;
     border-radius: 5px;
+}
+/* content */
+.Box{
+ border: 3px solid blue;
+ width: 100px;
+ height: 100px;
+ border-radius: 5px;
+ margin-left: 10px;
+}
+.title{
+    margin-bottom: 32px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.box-home{
+    width: 130px;
+}
+article{
+    text-align: center;
 }
